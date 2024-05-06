@@ -1,6 +1,6 @@
 #1
 library(readxl)
-caminho <- "/Users/mateusadriano/Desktop/Mestrado/Estatística aplicada a ecologia/Exercícios/Aula 2/dados.xlsx"
+caminho <- ""
 dados <- read_excel(caminho)
 as.numeric(dados$Ano)
 
